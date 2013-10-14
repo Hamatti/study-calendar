@@ -14,4 +14,3 @@ Example of input file is in repository and below:
 
 > MPKB,10/30/2013,12/18/2013,12:00 PM
 
-*(All code comments are in Finnish)*

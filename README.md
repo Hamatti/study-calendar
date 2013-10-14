@@ -11,6 +11,7 @@ hrs) and creates event for each lecture between start and end date (inclusive).
 Example of input file is in repository and below:
 
 > COURSE,STARTDATE,ENDDATE,STARTTIME
+
 > MPKB,10/30/2013,12/18/2013,12:00 PM
 
 *(All code comments are in Finnish)*

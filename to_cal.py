@@ -33,7 +33,7 @@ for course in courses:
     end_date = datetime.datetime.strptime(course[2], DAYFORMAT)
     start_time = course[3]
     # Luennon päättymisaika 2h luennon alkamisen jälkeen. Mikäli luento alkaa
-    # klo 10 jälkeen, on päättymisaika PM, muuten AM
+    # ennen klo 10, on päättymisaika AM, muuten PM
     if int(start_time[:2]) < 10:
         end_time = "%d:00 AM" % (int(start_time[:2])+2)
     else:
